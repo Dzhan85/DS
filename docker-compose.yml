@@ -1,5 +1,5 @@
 web:
-    image: kurbik/DS
+        image: czheo/node-chat
     links:
         - redis
     ports:
