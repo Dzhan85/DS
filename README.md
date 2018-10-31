@@ -1,4 +1,4 @@
-# node-chat
+# nodejs-chat
 
 This is a toy chatroom node.js app.
  
@@ -8,7 +8,7 @@ Install docker on your machine. https://docs.docker.com/installation/ubuntulinux
 # run redis server
 sudo docker run -d --name redis redis
 # run node-chat app
-sudo docker run -d --name node-chat --link redis:redis -p 80:3000 czheo/node-chat
+sudo docker run -d --name node-chat --link redis:redis -p 80:3000 kurbik/ds
 ```
 
 ### setup with docker-compose
@@ -23,7 +23,7 @@ sudo pip install docker-compose
 
 ``` bash
 # download docker-compose.yml to your local dir
-wget https://raw.githubusercontent.com/czheo/node-chat/master/docker-compose.yml
+wget https://raw.githubusercontent.com/Dzhan85/ds/master/docker-compose.yml
 # start containers
 docker-compose up -d
 ```
@@ -40,7 +40,7 @@ Install node.js, npm, ruby, compass
 
 ```
 # clone source code
-git clone https://github.com/czheo/node-chat.git
+git clone https://github.com/Dzhan85/ds.git
 
 # install dependancy and compile source code
 cd node-chat
@@ -52,4 +52,4 @@ node_modules/forever/bin/forever start app.js
 
 Then you can visit http://yourhostname:3000
 
-Check `Dockerfile` as a reference. https://github.com/czheo/node-chat/blob/master/Dockerfile
+Check `Dockerfile` as a reference. https://github.com/Dzhan85/ds/blob/master/Dockerfile
