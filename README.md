@@ -1,6 +1,9 @@
 # nodejs-chat
 
-This is a toy chatroom node.js app.
+This is chatroom node.js app.
+A Real Time Chat Application built using Node.js, Ruby, Compass, & Redis.
+
+![Screenshot](https://raw.githubusercontent.com/Dzhan85/chatlab/master/public/img/socket.io.jpeg)
  
 ### setup with docker
 Install docker on your machine. https://docs.docker.com/installation/ubuntulinux/
